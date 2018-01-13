@@ -1,0 +1,94 @@
+body {
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	letter-spacing: 0.5px;
+	font-family: Georgia, serif;
+	background: url(https://cdn.senshudo.tv/images/uploads/news/2014/05/19/1400539292_twitch_twitch_tv_live_video_games_1920x1080_78885.jpg) no-repeat center center fixed; 
+}
+/*** RADIO BTN ***/ 
+
+#offlineCh {
+  color: #ff3333;
+}
+
+#onlineCh {
+  color: #1de812;
+}
+
+/*** HEADER ***/
+
+h1 {
+	margin: 50px auto 70px;
+  animation: pop-in 1.5s;
+}
+
+h2 {
+  transform: rotate(7deg);
+  margin-bottom: 25px;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.streamers p {
+	max-width: 70%;
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 1);
+	color: black;
+	border-radius: 5px;
+}
+
+.offline {
+	color: #ff3333;
+}
+
+.hidden {
+	display: none;
+}
+
+.streamers p {
+	transition: transform 0.5s;
+}
+
+.streamers p:hover {
+	transform: scale(1.05);
+}
+
+a, a:link, a:visited, a:active {
+	color: white;
+}
+
+a:hover {
+  color: #6441a5;
+}
+
+.streamers a {
+	text-decoration: none;
+}
+
+#logo {
+  margin-right: 5px;
+  height: 52px;
+  width: 52px;
+  border-radius: 100%;
+  float: left;
+}
+
+#channel_name {
+	font-size: 30px;
+}
+
+footer {
+	margin-top: 50px;
+	font-size: 15px;
+}
